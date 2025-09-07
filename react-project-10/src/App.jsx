@@ -8,10 +8,10 @@ import "./style.css"
 const App = () => {
   return (
     <>
+      <Sidebar />
       <Nav />
       <Recommended />
       <Products />
-      <Sidebar />
     </>
   )
 }
