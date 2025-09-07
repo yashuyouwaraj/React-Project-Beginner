@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillStar } from "react-icons/ai";
 import { BsFillBagHeartFill } from "react-icons/bs";
 
-const card = () => {
+const Card = () => {
   return (
     <section className="card">
       <img
@@ -32,4 +32,4 @@ const card = () => {
   );
 };
 
-export default card;
+export default Card;
